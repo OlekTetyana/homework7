@@ -1,0 +1,46 @@
+.language-selector {
+
+}
+.flex-container {
+    display: flex;
+}
+.container {
+    max-width: 1112px;
+    margin: 0 auto;
+}
+.language-selector .wrapper-languages {
+    max-height: 0;
+    overflow: hidden;
+    background: red;
+    transition: 0.4s;
+}
+.language-selector .wrapper-languages a {
+    color: white;
+    text-decoration: none;
+}
+.language-selector:hover .wrapper-languages {
+    max-height: 300px;
+    transition: 0.4s;
+}
+
+.top-bar{
+    max-height: 100px;
+    background: #e7462e;
+    display: flex;
+   justify-content: center;
+}
+.wrapper-text{
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+
+}
+ .top-bar .wrapper-languages {
+    display: flex;
+    flex-direction: column;
+    
+}
